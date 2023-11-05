@@ -50,7 +50,7 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		b8.setPrefWidth(50);
 		b8.setOnAction(this);
 		
-		Button b9 = new Button("6");
+		Button b9 = new Button("9");
 		gd.add(b9, 2, 0);
 		b9.setPrefWidth(50);
 		b9.setOnAction(this);
@@ -130,10 +130,8 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		String value = b.getText();
 		
 
-		//Codigo Solucion
-		
-		// tener los dos numeros 
-                
+		//Codigo 
+
 		
 		long result = 0;
 		long number1_numer;
