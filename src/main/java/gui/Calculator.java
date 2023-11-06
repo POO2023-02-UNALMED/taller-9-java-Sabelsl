@@ -144,12 +144,12 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
             number2="";
             operator=null;
             texto_en_pantalla = "";
+            
         
         }
         
         this.displayText.setText(texto_en_pantalla+value);
         
-		
 		
 		switch (value) {
 		    case "+":
@@ -162,13 +162,12 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		    	operator = "*";
 		        break;
 		    case "/":
-		    	operator = "/";
 		        break;
 		    case "=":
                        
 		    	try {
-                            
-                            
+		    		
+       
                             number1_numer = Integer.parseInt(number1);
                             number2_numer = Integer.parseInt(number2);
                             //number1_numer = Long.parseLong(number1);
@@ -213,13 +212,11 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		    	}
 		    	else {
 		    		number2 = number2 + value;
-		    		
 		    	}
-		
 		}
 	}
-		
-	}
+}
 	
+
 
 
